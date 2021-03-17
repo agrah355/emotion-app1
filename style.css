@@ -1,0 +1,13 @@
+body{
+    background-color: yellow;
+    color: white;
+}
+.heading{
+    width: 80%;
+    font-family: cursive;
+}
+#camera{
+    width: 350px;
+    height: 300px;
+    border: black dotted;
+}
