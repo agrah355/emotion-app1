@@ -11,9 +11,8 @@ Webcam.set({
           document.getElementById("result").innerhtml="<img id='result1' src='"+data_uri+"'>";
       });
   }
-  classifier=Image.classifier("i have no link",modleLodded);
+  classifier=Image.classifier("https://teachablemachine.withgoogle.com/models/rI8XG-cre/modlel.json",modleLodded);
   function modleLodded(){
       console.log("ml5 version",ml5.version);
       console.log("modle lodded true");
   }
-  
