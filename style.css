@@ -1,7 +1,4 @@
-body{
-    text-align: center;
-    background-color: rgb(255, 215, 10);
-}
+
 .heading{
     width: 80%;
     font-family: cursive;
@@ -10,4 +7,8 @@ body{
     width: 350px;
     height: 300px;
     border: black dotted;
+}
+body{
+    color: black;
+    background-color: greenyellow;
 }
